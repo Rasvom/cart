@@ -1,0 +1,75 @@
+.wrap {
+  width: 250px;
+  margin: auto;
+  padding-bottom: 10px;
+  box-shadow: 0 1px 5px black;
+  border-radius: 6px;
+}
+img {
+  width: 100%;
+}
+.digital {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: relative;
+}
+.digitalBtn {
+  border: 1px solid rgb(90, 90, 255);
+  color: rgb(90, 90, 255);
+  border-radius: 2px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.digitalBlock {
+  display: flex;
+  align-items: center;
+}
+.buyBlock {
+  padding: 0 15px;
+}
+.addBtn {
+  background-color: rgb(31, 138, 31);
+  color: white;
+  border: none;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.disabled {
+  background-color: #6ab775;
+  color: white;
+  border: none;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+.text {
+  font-weight: bold;
+  font-size: 22px;
+  padding: 5px 0;
+}
+.lorem {
+  padding: 10px 5px;
+}
+.delete {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+}
+.popup {
+  width: 270px;
+  z-index: 1;
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  display: flex;
+  right: -250px;
+  bottom: 30px;
+  box-shadow: 0 1px 5px black;
+}
+
+input{
+  margin: auto;
+}
